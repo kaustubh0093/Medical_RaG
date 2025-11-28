@@ -1,0 +1,27 @@
+# Medical Diagnosis Knowledge Assistant (MDKA)
+# Requirements file for Python dependencies
+
+# Core Framework
+streamlit==1.31.0
+
+# Google Gemini & LangChain Integration
+google-generativeai==0.8.3
+langchain==0.3.7
+langchain-google-genai==2.0.5
+langchain-community==0.3.7
+
+# Vector Database
+chromadb==0.5.23
+
+# Document Processing
+pypdf==5.1.0
+pypdf2==3.0.1
+
+# Additional Dependencies
+python-dotenv==1.0.0
+pydantic==2.10.3
+typing-extensions==4.12.2
+
+# Optional but Recommended
+numpy==1.26.4
+pandas==2.2.1
